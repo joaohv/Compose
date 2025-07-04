@@ -1,6 +1,6 @@
 services:
   openproject:
-    image: openproject/openproject:latest
+    image: openproject/openproject:14
     container_name: openproject
     restart: unless-stopped
     volumes:
